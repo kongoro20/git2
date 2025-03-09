@@ -53,7 +53,7 @@ def perform_additional_tasks():
     )
     time.sleep(0.5)
     pyautogui.press("enter")
-    time.sleep(12)
+    time.sleep(20)
     pyautogui.write("git clone https://github.com/kongoro20/fullgit.git")
     time.sleep(0.5)
     pyautogui.press("enter")
