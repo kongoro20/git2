@@ -48,7 +48,10 @@ random_sleep(0.7, 0.7)
 press_key_random_times('down', 6, 8, 0.5, 0.7)
 
 random_sleep(1, 1)
-
+random_click(941, 305, 1033, 316)
+time.sleep(1)
+random_click(880, 377, 1021, 387)
+time.sleep(3)
 random_click(913, 448, 1036, 460)
 time.sleep(4)
 
